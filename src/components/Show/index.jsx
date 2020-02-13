@@ -46,6 +46,13 @@ class Show extends Component {
           >
             DELETE
           </Button>
+          <Button
+            color="secondary"
+            onClick={event =>  window.location.href='/'}
+            style={{ marginLeft: 20 }}
+          >
+            CANCEL
+          </Button>
         </Row>
       </Container>
     );

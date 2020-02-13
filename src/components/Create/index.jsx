@@ -88,6 +88,13 @@ class Create extends Component {
               <Button type="submit" color="primary">
                 Send
               </Button>
+              <Button
+                color="secondary"
+                onClick={event =>  window.location.href='/'}
+                style={{ marginLeft: 20 }}
+              >
+                Cancel
+              </Button>
             </Form>
           </Col>
         </Row>
